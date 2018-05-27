@@ -104,7 +104,7 @@ router.post('/selectAboutProduct',function (req,res,next) {
 //轮播图的数据
 router.get('/bannerList',function (req,res,next) {
     //1.查询设置banner的表格，然后将对应的pid获取到，查询pid对应的商品信息
-    let selectSql = `select product.* from setting_banner,product where setting_banner.pid=product.p_id`;
+    let selectSql = `select product.* from product where product.isBanner=1`;
     db.query(selectSql,function (err,result) {
         res.end(JSON.stringify(retDataFormat(result)));
     })
