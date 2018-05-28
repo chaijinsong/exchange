@@ -79,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/routes/comment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -123,7 +123,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="528" />
     <option name="y" value="32" />
     <option name="width" value="1382" />
@@ -198,15 +198,15 @@
       <workItem from="1527409456778" duration="2252000" />
       <workItem from="1527428154993" duration="531000" />
       <workItem from="1527474347462" duration="389000" />
-      <workItem from="1527477376448" duration="868000" />
+      <workItem from="1527477376448" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7189000" />
+    <option name="totallyTimeSpent" value="7442000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4946565" visible="true" weight="0.14052288" />
@@ -484,7 +484,7 @@
     <entry file="file://$PROJECT_DIR$/routes/comment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
