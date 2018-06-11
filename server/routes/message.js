@@ -24,7 +24,8 @@ router.post('/myproductAndMessage',function (req,res,next) {
                 db.query(selectSql,function (err,result) {
                     res.end(JSON.stringify(retDataFormat(result)))
                 })
-
+            }else{
+                res.end(JSON.stringify(retDataFormat([])))
             }
         })
     })
