@@ -19,7 +19,8 @@ router.post(`/`, function(req, res, next) {
         db.query(selectSql,function (err,result) {
             if(err){res.end(JSON.stringify(retDataFormat(err)))}
             if(result.length > 0){
-                res.end(JSON.stringify(retDataFormat({exist:true})))
+                res.end(JSON.stringify(retDataFormat({exist:true})));
+                return;
             }
             resolve();
         })
