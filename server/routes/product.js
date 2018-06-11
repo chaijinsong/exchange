@@ -110,4 +110,29 @@ router.get('/bannerList',function (req,res,next) {
     })
 })
 
+//查询某个商品属于哪个用户
+router.get('/findUser',function (req,res,next) {
+    let pid = req.params.pid;
+    let selectSql = `select user.* from user,user_product where user.uid=user_product.uid`;
+    db.query(selectSql,function (err,result) {
+        if(err){
+            res.end(JSON.stringify(retDataFormat(err)));
+        }else{
+            res.end(JSON.stringify(retDataFormat(result)));
+        }
+    })
+})
+
+//删除某个商品
+router.get('/deleteProduct',function (req,res,next) {
+    let p_id = req.query.p_id;
+    console.log(p_id);
+    let deleteSql = `delete from product where product.p_id=${p_id}`;
+    db.query(deleteSql,function (err,result) {
+        if(result.affectedRows > 0){
+            res.end(JSON.stringify(retDataFormat(true)))
+        }
+    })
+})
+
 module.exports = router;
