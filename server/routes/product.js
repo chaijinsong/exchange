@@ -112,7 +112,7 @@ router.get('/bannerList',function (req,res,next) {
 
 //查询某个商品属于哪个用户
 router.get('/findUser',function (req,res,next) {
-    let pid = req.params.pid;
+    let pid = req.query.pid;
     let selectSql = `select user.* from user,user_product where user.uid=user_product.uid`;
     db.query(selectSql,function (err,result) {
         if(err){

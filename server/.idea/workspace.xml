@@ -14,6 +14,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="product.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="114" column="28" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+              <folding>
+                <element signature="e#229#2038#0" />
+                <element signature="e#2108#2422#0" />
+                <element signature="e#2499#2896#0" />
+                <element signature="e#2969#3348#0" />
+                <element signature="e#3409#3648#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/db.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -23,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/api.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -39,9 +55,9 @@
       <list>
         <option value="$PROJECT_DIR$/routes/register.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/routes/product.js" />
         <option value="$PROJECT_DIR$/utils/db.js" />
         <option value="$PROJECT_DIR$/utils/api.js" />
+        <option value="$PROJECT_DIR$/routes/product.js" />
       </list>
     </option>
   </component>
@@ -79,6 +95,11 @@
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
@@ -121,12 +142,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528705752872</updated>
       <workItem from="1528705755652" duration="5645000" />
-      <workItem from="1528721112275" duration="2943000" />
+      <workItem from="1528721112275" duration="3633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8588000" />
+    <option name="totallyTimeSpent" value="9278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -176,7 +197,6 @@
             <element signature="e#2499#2896#0" />
             <element signature="e#2969#3348#0" />
             <element signature="e#3409#3648#0" />
-            <element signature="e#3713#4051#0" />
           </folding>
         </state>
       </provider>
@@ -209,21 +229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="134" column="6" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
-          <folding>
-            <element signature="e#229#2038#0" />
-            <element signature="e#2108#2422#0" />
-            <element signature="e#2499#2896#0" />
-            <element signature="e#2969#3348#0" />
-            <element signature="e#3409#3648#0" />
-            <element signature="e#3713#4051#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -242,6 +247,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="114" column="28" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+          <folding>
+            <element signature="e#229#2038#0" />
+            <element signature="e#2108#2422#0" />
+            <element signature="e#2499#2896#0" />
+            <element signature="e#2969#3348#0" />
+            <element signature="e#3409#3648#0" />
+          </folding>
         </state>
       </provider>
     </entry>
